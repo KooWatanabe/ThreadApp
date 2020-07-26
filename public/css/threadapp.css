@@ -1,0 +1,186 @@
+li {
+    display: inline-block;
+  }
+
+.header {
+    font-size: 30px;
+    font-weight: 550;
+    border-bottom: solid 2px;
+}
+
+.nav {
+    float: left;
+}
+
+.logout-btn {
+    float: right;
+    margin: 5px 10px 0 0;
+}
+
+.main, .container{
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: hsla(209, 54%, 52%, 0.932);/*色*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    border: solid 2px hsla(209, 54%, 52%, 0.932);/*線色*/
+  }
+
+.btn-submit {
+    margin: 20px 0;
+    padding: 7px 25px;
+}
+
+.deleteButton{
+    float: right;
+    margin: 5px 10px 30px 0;
+}
+
+.btn:active {
+    /*押したとき*/
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+  }
+
+.panel-heading {
+      font-size: 20px;
+      font-weight: 550;
+      margin: 20px 0;
+  }
+
+.inline {
+    border-top: solid 1px;
+    padding: 20px 0 30px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.commnet-post {
+    width: 67%;
+}
+
+table{
+    width: 90%;
+    margin: 3px auto;
+    border-collapse:separate;
+    border-spacing: 0;
+  }
+
+table th{
+    color:white;
+    background: linear-gradient(#b1b3b6,#b1b3b6);
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+    padding: 10px 0;
+  }
+
+table td{
+    border-bottom: 1px solid #a8b7c5;
+    border-top:none;
+    width: 25%;
+    padding: 10px 0;
+  }
+
+table .id{
+    width: 5%;
+    text-align: right;
+    padding-right: 5px;
+}
+
+table .name, table .comment{
+    width: 75%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+table .create, table .update, table .btn-td{
+    width: 10%;
+    text-align: center;
+}
+
+.page-item {
+    padding: 0 5px;
+}
+
+.login-form, .register-form, .delete-form{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.create-form {
+    width: 40%;
+    margin: 0 auto;
+}
+.form-label {
+    display: inline-block;
+    margin-right: 5px;
+    width: 23%;
+}
+
+.form-text {
+    height: 35px;
+    width: 62%;
+    border-radius: 3px;
+}
+
+.create-form .form-label {
+    display: inline-block;
+    width: 12%;
+}
+
+.create-form .form-text {
+    height: 35px;
+    width: 85%;
+    border-radius: 3px;
+}
+
+.confilm-text {
+    display: inline;;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.confilm-group .post-group{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-submit{
+    text-align: center;
+}
+
+p.excuse {
+    text-align: left;
+    margin-top: 20px;
+}
+
+p.title {
+    margin-top: 60px;
+}
+
+.thread-create {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.comment-box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 2px #000000;
+}
+.comment-box p {
+    margin: 0;
+    padding: 0;
+}
